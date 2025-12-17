@@ -40,7 +40,7 @@ if "history" not in st.session_state:
 # --- Fungsi untuk request ke Hugging Face Inference API terbaru ---
 def ask_qwen(prompt):
     api_key = st.secrets["QWEN_API_KEY"]
-    url = "https://api-inference.huggingface.co/models/Qwen/Qwen-7B-Chat"
+    url = "https://router.huggingface.co/models/Qwen/Qwen-7B-Chat"
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
