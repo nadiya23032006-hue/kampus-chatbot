@@ -3,8 +3,8 @@ import json
 import requests
 import os
 
-st.set_page_config(page_title="Chatbot Kampus Nad", layout="wide")
-st.title("Chatbot Kampus Nad 💬")
+st.set_page_config(page_title="Chatbot Kampus Vokasi", layout="wide")
+st.title("Chatbot Kampus Vokasi 💬")
 
 # --- Load data TXT ---
 txt_path = "data.txt"
@@ -43,7 +43,7 @@ if "history" not in st.session_state:
 
 # --- Fungsi untuk request ke Qwen Chat API ---
 def ask_qwen(prompt):
-    api_key = st.secrets["QWEN_API_KEY"]["api_key"]
+    api_key = st.secrets["QWEN_API_KEY"]
     url = "https://api.qwen.ai/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
