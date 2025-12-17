@@ -20,7 +20,13 @@ if os.path.exists(json_path):
     with open(json_path, "r", encoding="utf-8") as f:
         json_data = json.load(f)
         # gabungkan semua value JSON jadi satu string
-        json_content = " ".join([str(v) for v in json_data.values()])
+        if isinstance(json_data, dict):
+            json_content = " ".join([str(v) for v in json_data.values()])
+        elif isinstance(json_data, list):
+            # misal list of dict
+            json_content = " ".join([str(v) for item in json_data for v in (item.values() if isinstance(item, dict) else [item])])
+        else:
+            json_content = str(json_data)
 else:
     json_content = ""
 
