@@ -37,19 +37,16 @@ st.write("Data berhasil dimuat!" if data_text else "Tidak ada data.")
 if "history" not in st.session_state:
     st.session_state.history = []
 
-# --- Fungsi untuk request ke Qwen Router API ---
-def ask_qwen_router(prompt):
+# --- Fungsi untuk request ke Hugging Face Inference API terbaru ---
+def ask_qwen(prompt):
     api_key = st.secrets["QWEN_API_KEY"]
-    url = "https://router.huggingface.co/api/chat"
-
+    url = "https://api-inference.huggingface.co/models/Qwen/Qwen-7B-Chat"
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
     }
-
     payload = {
-        "model": "Qwen/Qwen-7B-Chat",
-        "inputs": [{"role": "user", "content": prompt}],
+        "inputs": prompt,
         "parameters": {
             "max_new_tokens": 200,
             "temperature": 0.3
@@ -60,10 +57,8 @@ def ask_qwen_router(prompt):
         res = requests.post(url, headers=headers, json=payload, timeout=90)
         if res.status_code == 200:
             result = res.json()
-            # Ambil generated_text dari response Router API
-            if isinstance(result, dict) and "generated_text" in result:
-                return result["generated_text"]
-            elif isinstance(result, list) and "generated_text" in result[0]:
+            # HF Inference API mengembalikan list dengan field generated_text
+            if isinstance(result, list) and "generated_text" in result[0]:
                 return result[0]["generated_text"]
             else:
                 return "AI tidak mengembalikan jawaban."
@@ -81,11 +76,10 @@ if st.button("Kirim") and user_input.strip():
     else:
         # Gabungkan data + user input
         prompt = f"{data_text}\nUser: {user_input}"
-
         with st.spinner("AI sedang memproses..."):
-            reply = ask_qwen_router(prompt)
+            reply = ask_qwen(prompt)
 
-        # Simpan ke history
+        # Simpan ke chat history
         st.session_state.history.append({"user": user_input, "reply": reply})
 
 # --- Tampilkan chat history ala Laravel ---
