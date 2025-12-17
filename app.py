@@ -44,21 +44,21 @@ if "history" not in st.session_state:
 # --- Fungsi untuk request ke Qwen Chat API ---
 def ask_qwen(prompt):
     api_key = st.secrets["QWEN_API_KEY"]
-    url = "https://api.qwen.ai/v1/chat/completions"
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
-    }
-    data = {
-        "model": "Qwen-7B-Chat",
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.3,
-        "max_new_tokens": 200
-    }
+    url = "https://api-inference.huggingface.co/models/Qwen/Qwen-7B-Chat"
+    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+    data = {"inputs": prompt}
+
     res = requests.post(url, headers=headers, json=data, timeout=90)
-    st.write(res.status_code)
-    st.write(res.text)
-    return res.json().get("choices", [{}])[0].get("message", {}).get("content", "")
+
+    if res.status_code == 200:
+        result = res.json()
+        # HF API mengembalikan list dengan field generated_text
+        if isinstance(result, list) and "generated_text" in result[0]:
+            return result[0]["generated_text"]
+        else:
+            return "AI tidak mengembalikan jawaban."
+    else:
+        return f"AI Error {res.status_code}: {res.text}"
 
 # --- Input user ---
 user_input = st.text_input("Tanya sesuatu:")
