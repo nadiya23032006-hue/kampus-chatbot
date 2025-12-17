@@ -30,35 +30,47 @@ else:
 
 # --- Pilih sumber data ---
 option = st.selectbox("Pilih sumber data:", ["TXT", "JSON"])
-if option == "TXT":
-    data_text = txt_content
-elif option == "JSON":
-    data_text = json_content
-
+data_text = txt_content if option == "TXT" else json_content
 st.write("Data berhasil dimuat!" if data_text else "Tidak ada data.")
 
 # --- Inisialisasi chat history ---
 if "history" not in st.session_state:
     st.session_state.history = []
 
-# --- Fungsi untuk request ke Qwen Chat API ---
-def ask_qwen(prompt):
+# --- Fungsi untuk request ke Qwen Router API ---
+def ask_qwen_router(prompt):
     api_key = st.secrets["QWEN_API_KEY"]
-    url = "https://api-inference.huggingface.co/models/Qwen/Qwen-7B-Chat"
-    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
-    data = {"inputs": prompt}
+    url = "https://router.huggingface.co/api/chat"
 
-    res = requests.post(url, headers=headers, json=data, timeout=90)
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json"
+    }
 
-    if res.status_code == 200:
-        result = res.json()
-        # HF API mengembalikan list dengan field generated_text
-        if isinstance(result, list) and "generated_text" in result[0]:
-            return result[0]["generated_text"]
+    payload = {
+        "model": "Qwen/Qwen-7B-Chat",
+        "inputs": [{"role": "user", "content": prompt}],
+        "parameters": {
+            "max_new_tokens": 200,
+            "temperature": 0.3
+        }
+    }
+
+    try:
+        res = requests.post(url, headers=headers, json=payload, timeout=90)
+        if res.status_code == 200:
+            result = res.json()
+            # Ambil generated_text dari response Router API
+            if isinstance(result, dict) and "generated_text" in result:
+                return result["generated_text"]
+            elif isinstance(result, list) and "generated_text" in result[0]:
+                return result[0]["generated_text"]
+            else:
+                return "AI tidak mengembalikan jawaban."
         else:
-            return "AI tidak mengembalikan jawaban."
-    else:
-        return f"AI Error {res.status_code}: {res.text}"
+            return f"AI Error {res.status_code}: {res.text}"
+    except Exception as e:
+        return f"AI Error: {str(e)}"
 
 # --- Input user ---
 user_input = st.text_input("Tanya sesuatu:")
@@ -67,14 +79,16 @@ if st.button("Kirim") and user_input.strip():
     if not data_text:
         st.error("Tidak ada data untuk dijadikan konteks.")
     else:
-        # Gabungkan user input dengan data yang dipilih
+        # Gabungkan data + user input
         prompt = f"{data_text}\nUser: {user_input}"
-        reply = ask_qwen(prompt)
 
-        # Simpan ke chat history
+        with st.spinner("AI sedang memproses..."):
+            reply = ask_qwen_router(prompt)
+
+        # Simpan ke history
         st.session_state.history.append({"user": user_input, "reply": reply})
 
-# --- Tampilkan chat history ala Laravel design ---
+# --- Tampilkan chat history ala Laravel ---
 for chat in st.session_state.history:
     st.markdown(f"**Kamu:** {chat['user']}")
     st.markdown(f"**Bot:** {chat['reply']}")
