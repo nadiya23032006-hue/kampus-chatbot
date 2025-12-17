@@ -1,0 +1,690 @@
+[
+    {
+        "question": "Apa yang dimaksud dengan sivitas akademika dalam konteks UB?",
+        "answer": "Sivitas akademika mencakup dosen, mahasiswa, dan tenaga kependidikan yang terlibat dalam proses pendidikan, penelitian, dan pengabdian di lingkungan UB."
+    },
+    {
+        "question": "Apa visi pendidikan Universitas Brawijaya?",
+        "answer": "Visi pendidikan UB adalah menjadi institusi pendidikan tinggi yang unggul dalam pengembangan ilmu pengetahuan, teknologi, dan seni untuk kesejahteraan masyarakat."
+    },
+    {
+        "question": "Apa fungsi pendidikan menurut pedoman akademik UB?",
+        "answer": "Fungsi pendidikan adalah mengembangkan kemampuan peserta didik agar menjadi manusia berilmu, berkarakter, dan mampu berkontribusi bagi masyarakat."
+    },
+    {
+        "question": "KTM itu apa?",
+        "answer": "KTM adalah kartu tanda mahasiswa."
+    },
+    {
+        "question": "Who is the current Rector of Universitas Brawijaya?",
+        "answer": "The current Rector of Universitas Brawijaya is Prof. Widodo, S.Si., M.Si., Ph.D. Med.Sc., serving for the 2022-2027 period."
+    },
+    {
+        "question": "How many faculties are there in Universitas Brawijaya?",
+        "answer": "Currently, Universitas Brawijaya has 18 faculties, including the Faculty of Vocational Studies and the Postgraduate School."
+    },
+    {
+        "question": "List the faculties in Universitas Brawijaya.",
+        "answer": "Faculties at UB include: Law, Economics and Business, Administrative Science, Agriculture, Animal Science, Engineering, Medicine, Fisheries and Marine Science, Mathematics and Natural Sciences (MIPA), Agricultural Technology, Social and Political Sciences, Cultural Studies, Veterinary Medicine, Computer Science, Dentistry, Health Sciences, Vocational Studies, and the Postgraduate School."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Law (FH) and what are the majors?",
+        "answer": "The Dean of FH UB is Dr. Aan Eko Widiarto, S.H., M.Hum. Majors include Bachelor of Law, Master of Law, Master of Notary, and Doctor of Law."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Economics and Business (FEB) and what are the departments?",
+        "answer": "The Dean of FEB UB is Abdul Ghofar, S.E., M.Si., M.Acc., DBA., Ak., CA. Departments include Accounting, Management, and Economics (Development Economics, Islamic Finance, and Entrepreneurship)."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Computer Science (FILKOM)?",
+        "answer": "The Dean of FILKOM UB is Prof. Ir. Wayan Firdaus Mahmudy, S.Si., M.T., Ph.D. Majors available include Informatics Engineering, Information Systems, Computer Engineering, Information Technology Education, and Information Technology."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Engineering (FT) and what are the majors?",
+        "answer": "The Dean of FT UB is Prof. Ir. Hadi Suyono, S.T., M.T., Ph.D., IPU., ASEAN Eng. Majors include Civil Engineering, Mechanical Engineering, Electrical Engineering, Water Resources Engineering, Architecture, Urban & Regional Planning, Industrial Engineering, and Chemical Engineering."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Vocational Studies?",
+        "answer": "The Dean of the Faculty of Vocational Studies is Mukhammad Kholid Mawardi, S.Sos., M.A.B., Ph.D. This faculty offers applied education in Diploma III (D3) and Applied Bachelor (D4) programs such as Business Administration, Information Technology, and Creative Industries."
+    },
+    {
+        "question": "Siapa Dekan Fakultas Kedokteran (FK) UB dan apa saja jurusannya?",
+        "answer": "Dekan FK UB adalah Dr. dr. Wisnu Barlianto, M.Si., Med., Sp.A(K). Jurusan meliputi Kedokteran, Farmasi, Kebidanan, serta berbagai program Spesialis dan Sub-spesialis."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Medicine (FK) and what are the majors?",
+        "answer": "The Dean of FK UB is Dr. dr. Wisnu Barlianto, M.Si., Med., Sp.A(K). Majors include Medicine, Pharmacy, Midwifery, as well as various Specialist and Sub-specialist programs."
+    },
+    {
+        "question": "Siapa Dekan Fakultas Ilmu Sosial dan Ilmu Politik (FISIP) UB dan apa saja jurusannya?",
+        "answer": "Dekan FISIP UB adalah Anang Sujoko, S.Sos., M.Si., D.COMM. Jurusan meliputi Sosiologi, Ilmu Komunikasi, Hubungan Internasional, Psikologi, Ilmu Politik, dan Ilmu Pemerintahan."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Social and Political Sciences (FISIP) and what are the majors?",
+        "answer": "The Dean of FISIP UB is Anang Sujoko, S.Sos., M.Si., D.COMM. Majors include Sociology, Communication Science, International Relations, Psychology, Political Science, and Government Science."
+    },
+    {
+        "question": "Siapa Dekan Fakultas Pertanian (FP) UB dan apa jurusannya?",
+        "answer": "Dekan FP UB adalah Prof. Mangku Purnomo, S.P., M.Si., Ph.D. Jurusan meliputi Agroekoteknologi, Agribisnis, dan Kehutanan."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Agriculture (FP) and what are the majors?",
+        "answer": "The Dean of FP UB is Prof. Mangku Purnomo, S.P., M.Si., Ph.D. Majors include Agroecotechnology, Agribusiness, and Forestry."
+    },
+    {
+        "question": "Siapa Dekan Fakultas Peternakan (Fapet) UB?",
+        "answer": "Dekan Fapet UB adalah Prof. Dr. Ir. M. Halim Natsir, S.Pt., MP., IPM., ASEAN Eng. Jurusan utamanya adalah Peternakan."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Animal Science?",
+        "answer": "The Dean is Prof. Dr. Ir. M. Halim Natsir, S.Pt., MP., IPM., ASEAN Eng. The main major is Animal Science."
+    },
+    {
+        "question": "Siapa Dekan Fakultas MIPA UB dan apa saja jurusannya?",
+        "answer": "Dekan FMIPA UB adalah Ratno Bagus Edy Wibowo, S.Si., M.Si., Ph.D. Jurusan meliputi Biologi, Fisika, Kimia, Matematika, Statistika, Aktuaria, dan Teknik Instrumentasi."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Mathematics and Natural Sciences (MIPA) and what are the majors?",
+        "answer": "The Dean of FMIPA UB is Ratno Bagus Edy Wibowo, S.Si., M.Si., Ph.D. Majors include Biology, Physics, Chemistry, Mathematics, Statistics, Actuarial Science, and Instrumentation Engineering."
+    },
+    {
+        "question": "Siapa Dekan Fakultas Teknologi Pertanian (FTP) UB dan apa saja jurusannya?",
+        "answer": "Dekan FTP UB adalah Prof. Yusuf Hendrawan, S.TP., M.App.Life.Sc., Ph.D. Jurusan meliputi Teknologi Hasil Pertanian, Keteknikan Pertanian, dan Teknologi Industri Pertanian (TIP)."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Agricultural Technology (FTP) and what are the majors?",
+        "answer": "The Dean of FTP UB is Prof. Yusuf Hendrawan, S.TP., M.App.Life.Sc., Ph.D. Majors include Agricultural Product Technology, Agricultural Engineering, and Agro-industrial Technology."
+    },
+    {
+        "question": "Siapa Dekan Fakultas Ilmu Budaya (FIB) UB dan apa saja jurusannya?",
+        "answer": "Dekan FIB UB adalah Hamamah, S.Pd., M.Pd., Ph.D. Jurusan meliputi Sastra Inggris, Sastra Jepang, Sastra Perancis, Sastra Cina, Pendidikan Bahasa, Seni Rupa Murni, dan Antropologi."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Cultural Studies (FIB) and what are the majors?",
+        "answer": "The Dean of FIB UB is Hamamah, S.Pd., M.Pd., Ph.D. Majors include English Literature, Japanese Literature, French Literature, Chinese Literature, Language Education, Fine Arts, and Anthropology."
+    },
+    {
+        "question": "Siapa Dekan Fakultas Perikanan dan Ilmu Kelautan (FPIK) UB?",
+        "answer": "Dekan FPIK UB adalah Prof. Dr. Ir. Maftuch, M.Si. Jurusan meliputi Budidaya Perairan, Manajemen Sumberdaya Perairan, Teknologi Hasil Perikanan, Pemanfaatan Sumberdaya Perikanan, Ilmu Kelautan, dan Agrobisnis Perikanan."
+    },
+    {
+        "question": "Who is the Dean of the Faculty of Fisheries and Marine Science (FPIK)?",
+        "answer": "The Dean of FPIK UB is Prof. Dr. Ir. Maftuch, M.Si. Majors include Aquaculture, Aquatic Resource Management, Fishery Product Technology, Fishery Resources Utilization, Marine Science, and Fishery Agribusiness."
+    },
+    {
+        "question": "Siapa Dekan Fakultas Kedokteran Gigi (FKG) UB?",
+        "answer": "Dekan FKG UB adalah Dr. drg. Nur Permatasari, M.S. Jurusan utamanya adalah Pendidikan Dokter Gigi."
+    },
+    {
+        "question": "Siapa Dekan Fakultas Kedokteran Hewan (FKH) UB?",
+        "answer": "Dekan FKH UB adalah drh. Dyah Ayu Oktavianie A.P., M.Biotech. Jurusan utamanya adalah Pendidikan Dokter Hewan."
+    },
+    {
+        "question": "Siapa Dekan Fakultas Ilmu Kesehatan (FIKES) UB dan apa jurusannya?",
+        "answer": "Dekan FIKES UB adalah Prof. Dian Handayani, S.K.M., M.Kes., Ph.D. Jurusan meliputi Ilmu Gizi dan Ilmu Keperawatan."
+    },
+    {
+        "question": "Sebutkan daftar program studi jenjang D3 (Diploma 3) di Fakultas Vokasi UB.",
+        "answer": "Program studi jenjang D3 di Fakultas Vokasi UB terdiri dari: 1) Administrasi Bisnis, 2) Keuangan Perbankan, dan 3) Teknologi Informasi."
+    },
+    {
+        "question": "Sebutkan daftar program studi jenjang D4 (Sarjana Terapan) di Fakultas Vokasi UB.",
+        "answer": "Program studi jenjang D4 (Sarjana Terapan) di Fakultas Vokasi UB meliputi: 1) Desain Grafis, 2) Manajemen Perhotelan, dan 3) Manajemen Bisnis Pariwisata."
+    },
+    {
+        "question": "Apa saja jurusan yang ada di Fakultas Vokasi UB?",
+        "answer": "Fakultas Vokasi UB menyelenggarakan pendidikan D3 (Administrasi Bisnis, Keuangan Perbankan, Teknologi Informasi) dan D4 Sarjana Terapan (Desain Grafis, Manajemen Perhotelan, Manajemen Bisnis Pariwisata)."
+    },
+    {
+        "question": "Apakah Desain Grafis di UB itu D3 atau S1?",
+        "answer": "Desain Grafis di UB adalah program studi jenjang D4 (Sarjana Terapan) yang berada di bawah Fakultas Vokasi."
+    },
+    {
+        "question": "Apakah ada jurusan Pendidikan Agama di Vokasi UB?",
+        "answer": "Tidak ada. Fakultas Vokasi UB fokus pada bidang bisnis, teknologi, dan industri kreatif, bukan pendidikan agama."
+    },
+    {
+        "question": "Apa saja jurusan atau prodi di Fakultas Ilmu Komputer (FILKOM)?",
+        "answer": "FILKOM UB memiliki 5 program studi sarjana utama: 1) Teknik Informatika, 2) Sistem Informasi, 3) Teknik Komputer, 4) Pendidikan Teknologi Informasi, dan 5) Teknologi Informasi."
+    },
+    {
+        "question": "Sebutkan prodi yang ada di Fakultas Teknik (FT) UB.",
+        "answer": "Fakultas Teknik memiliki prodi: Teknik Sipil, Teknik Mesin, Teknik Elektro, Teknik Pengairan, Arsitektur, Perencanaan Wilayah dan Kota (PWK), Teknik Industri, dan Teknik Kimia."
+    },
+    {
+        "question": "Apa saja prodi di Fakultas Ekonomi dan Bisnis (FEB)?",
+        "answer": "FEB UB menaungi prodi: Akuntansi, Manajemen, Ilmu Ekonomi (Ekonomi Pembangunan), Ekonomi Islam, Kewirausahaan, serta prodi Perpajakan dan Bisnis Digital."
+    },
+    {
+        "question": "Jurusan apa saja yang ada di Fakultas Ilmu Administrasi (FIA)?",
+        "answer": "FIA UB memiliki jurusan Administrasi Publik (dengan prodi Administrasi Publik, Perpustakaan, Admin Pendidikan) dan jurusan Administrasi Bisnis (dengan prodi Admin Bisnis, Pariwisata, Bisnis Internasional)."
+    },
+    {
+        "question": "Sebutkan prodi di Fakultas Ilmu Sosial dan Ilmu Politik (FISIP).",
+        "answer": "FISIP UB memiliki prodi: Sosiologi, Ilmu Komunikasi, Psikologi, Hubungan Internasional (HI), Ilmu Politik, dan Ilmu Pemerintahan."
+    },
+    {
+        "question": "Apa saja prodi di Fakultas Pertanian (FP)?",
+        "answer": "Fakultas Pertanian memiliki prodi: Agroekoteknologi, Agribisnis, dan Kehutanan."
+    },
+    {
+        "question": "Sebutkan prodi di Fakultas Peternakan (Fapet).",
+        "answer": "Fakultas Peternakan hanya memiliki satu program studi sarjana, yaitu Peternakan."
+    },
+    {
+        "question": "Apa saja prodi di Fakultas Perikanan dan Ilmu Kelautan (FPIK)?",
+        "answer": "FPIK memiliki prodi: Budidaya Perairan, Manajemen Sumberdaya Perairan, Teknologi Hasil Perikanan, Pemanfaatan Sumberdaya Perikanan, Ilmu Kelautan, dan Agrobisnis Perikanan."
+    },
+    {
+        "question": "Sebutkan prodi di Fakultas Teknologi Pertanian (FTP).",
+        "answer": "FTP UB memiliki prodi: Ilmu dan Teknologi Pangan (ITP), Keteknikan Pertanian (TEP), Teknologi Industri Pertanian (TIP), dan Bioteknologi."
+    },
+    {
+        "question": "Apa saja prodi di Fakultas MIPA?",
+        "answer": "Fakultas MIPA memiliki prodi: Biologi, Fisika, Kimia, Matematika, Statistika, Teknik Geofisika, Instrumentasi, dan Ilmu Aktuaria."
+    },
+    {
+        "question": "Sebutkan prodi di Fakultas Ilmu Budaya (FIB).",
+        "answer": "FIB UB memiliki prodi: Sastra Inggris, Sastra Jepang, Sastra Perancis, Sastra Cina, Pendidikan Bahasa & Sastra (Indonesia, Inggris, Jepang), Seni Rupa Murni, dan Antropologi."
+    },
+    {
+        "question": "Jurusan Teknik Informatika masuk fakultas apa di UB?",
+        "answer": "Teknik Informatika berada di bawah naungan Fakultas Ilmu Komputer (FILKOM)."
+    },
+    {
+        "question": "Jurusan Psikologi masuk fakultas mana?",
+        "answer": "Psikologi di UB berada di bawah Fakultas Ilmu Sosial dan Ilmu Politik (FISIP)."
+    },
+    {
+        "question": "Apakah ada jurusan Hubungan Internasional di UB?",
+        "answer": "Ya, Hubungan Internasional (HI) adalah salah satu program studi di Fakultas Ilmu Sosial dan Ilmu Politik (FISIP) UB."
+    },
+    {
+        "question": "Jurusan Arsitektur masuk fakultas apa?",
+        "answer": "Arsitektur adalah program studi yang berada di bawah Fakultas Teknik (FT) UB."
+    },
+    {
+        "question": "Apa prinsip dasar penyelenggaraan pendidikan di UB?",
+        "answer": "Pendidikan diselenggarakan berdasarkan asas keadilan, transparansi, akuntabilitas, dan menjunjung tinggi etika akademik."
+    },
+    {
+        "question": "Apa saja jenis program pendidikan yang ada di UB?",
+        "answer": "UB menyelenggarakan pendidikan vokasi, sarjana, profesi, spesialis, magister, dan doktor."
+    },
+    {
+        "question": "Apa tujuan umum sistem pembelajaran di UB?",
+        "answer": "Tujuan umumnya adalah menghasilkan lulusan yang kompeten, adaptif, dan mampu bersaing di tingkat nasional maupun internasional."
+    },
+    {
+        "question": "Apa yang dimaksud dengan Sistem Kredit Semester (SKS)?",
+        "answer": "SKS adalah sistem pengelolaan beban belajar mahasiswa yang dihitung berdasarkan waktu kegiatan pembelajaran terstruktur dan mandiri."
+    },
+    {
+        "question": "Apa yang termasuk kegiatan pembelajaran dalam SKS?",
+        "answer": "Kegiatan pembelajaran meliputi perkuliahan, responsi, tutorial, seminar, praktikum, studi lapangan, dan bentuk pembelajaran lain yang relevan."
+    },
+    {
+        "question": "Kapan batas akhir pengajuan cuti akademik?",
+        "answer": "Batas akhir pengajuan cuti akademik biasanya ditutup sebelum masa Perubahan Rencana Studi (PRS) berakhir atau sesuai tanggal yang tertera di Kalender Akademik UB tahun berjalan. Mahasiswa wajib mengecek tanggal pastinya di SIAM."
+    },
+    {
+        "question": "Kapan jadwal UTS dan UAS biasanya dilaksanakan?",
+        "answer": "Jadwal UTS biasanya dilaksanakan pada pertemuan ke-8 atau ke-9 perkuliahan, sedangkan UAS dilaksanakan setelah pertemuan ke-16. Jadwal spesifik mata kuliah dapat dilihat di SIAM masing-masing mahasiswa."
+    },
+    {
+        "question": "Kapan pengisian Kartu Rencana Studi (KRS) untuk semester ganjil dan genap?",
+        "answer": "Pengisian KRS Semester Ganjil biasanya dilakukan bulan Agustus, sedangkan Semester Genap bulan Januari. Pastikan Anda telah membayar UKT sebelum jadwal pengisian dimulai."
+    },
+    {
+        "question": "Apa syarat untuk mengambil mata kuliah Skripsi?",
+        "answer": "Syarat umum mengambil Skripsi adalah: 1) Telah menempuh minimal 110-120 SKS (tergantung prodi), 2) Telah lulus mata kuliah Metodologi Penelitian, 3) Tidak ada nilai E, dan 4) IPK memenuhi standar minimal (biasanya di atas 2.00)."
+    },
+    {
+        "question": "Mata kuliah pilihan apa yang rekomendasi untuk semester 5?",
+        "answer": "Rekomendasi mata kuliah pilihan bergantung pada peminatan yang ingin Anda ambil untuk Skripsi nanti. Disarankan berkonsultasi dengan Dosen Penasihat Akademik (PA) agar mata kuliah pilihan mendukung topik tugas akhir Anda."
+    },
+    {
+        "question": "Apa syarat mengambil mata kuliah KKN/KKM?",
+        "answer": "Syarat mengambil KKN/KKM biasanya adalah telah menempuh sejumlah SKS tertentu (umumnya minimal 80-90 SKS) dan terdaftar sebagai mahasiswa aktif pada semester tersebut."
+    },
+    {
+        "question": "Bagaimana cara mengurus Surat Keterangan Masih Kuliah untuk tunjangan orang tua?",
+        "answer": "Anda dapat mengajukan Surat Keterangan Masih Kuliah secara online melalui akun SIAM (Menu Kemahasiswaan/Surat) atau melalui aplikasi layanan akademik fakultas masing-masing. Surat biasanya akan divalidasi dan ditandatangani secara digital."
+    },
+    {
+        "question": "Apa saja syarat pendaftaran Wisuda?",
+        "answer": "Syarat wisuda meliputi: 1) Status Lulus di SIAM, 2) Telah menyelesaikan revisi skripsi dan upload ke repositori, 3) Memiliki sertifikat TOEFL/TOEIC dengan skor minimal sesuai prodi, 4) Bebas tanggungan perpustakaan dan keuangan, 5) Membayar biaya wisuda (jika ada)."
+    },
+    {
+        "question": "Bagaimana cara legalisir ijazah dan transkrip nilai?",
+        "answer": "Legalisir dapat dilakukan secara online melalui website upalumni.ub.ac.id atau datang langsung ke bagian akademik fakultas/rektorat dengan membawa dokumen asli dan fotokopi."
+    },
+    {
+        "question": "Bagaimana cara konversi nilai SKS dari program Kampus Merdeka (MBKM)?",
+        "answer": "Proses konversi dilakukan dengan: 1) Konsultasi dengan KPS/Kaprodi sebelum program dimulai, 2) Melakukan mapping mata kuliah yang relevan dengan kegiatan MBKM, 3) Mengisi formulir konversi nilai setelah program selesai dan menyerahkan bukti kegiatan/sertifikat."
+    },
+    {
+        "question": "Di mana saya bisa download template proposal magang?",
+        "answer": "Template proposal magang biasanya tersedia di website resmi masing-masing Fakultas atau Departemen. Silakan cek bagian 'Unduhan' atau 'Akademik' di website fakultas Anda."
+    },
+    {
+        "question": "Apakah magang mandiri bisa dikonversi menjadi SKS?",
+        "answer": "Bisa, asalkan magang tersebut disetujui oleh Program Studi dan memenuhi jam kegiatan yang setara dengan bobot SKS (biasanya 1 SKS setara 170 menit kegiatan per minggu per semester). Pengajuan harus dilakukan sebelum magang dimulai."
+    },
+    {
+        "question": "Apa tujuan Rekognisi Pembelajaran Lampau (RPL)?",
+        "answer": "RPL bertujuan mengakui pengalaman belajar mahasiswa yang diperoleh dari pendidikan formal, nonformal, atau pengalaman kerja."
+    },
+    {
+        "question": "Apa yang dinilai dalam penilaian kemampuan akademik mahasiswa?",
+        "answer": "Penilaian mencakup kehadiran, partisipasi, tugas, kuis, ujian tengah semester(UTS), ujian akhir semester(UAS), dan bentuk asesmen lain sesuai mata kuliah."
+    },
+    {
+        "question": "Apa itu Ujian Perbaikan (Remidi/remed)?",
+        "answer": "Ujian Perbaikan adalah kesempatan bagi mahasiswa untuk memperbaiki nilai mata kuliah tertentu sesuai ketentuan program studi."
+    },
+    {
+        "question": "Apa tujuan penerapan OBE di UB?",
+        "answer": "OBE diterapkan untuk memastikan setiap lulusan mencapai capaian pembelajaran yang terukur dan relevan dengan kebutuhan dunia kerja."
+    },
+    {
+        "question": "Apa karakteristik utama pembelajaran berbasis OBE?",
+        "answer": "OBE berfokus pada capaian pembelajaran, perencanaan kurikulum yang terstruktur, dan asesmen yang mengukur ketercapaian kompetensi."
+    },
+    {
+        "question": "Apa bentuk asesmen dalam OBE?",
+        "answer": "Asesmen OBE mencakup asesmen formatif, sumatif, portofolio, dan evaluasi berbasis kinerja."
+    },
+    {
+        "question": "Apa tujuan pembelajaran daring di UB?",
+        "answer": "Pembelajaran daring bertujuan memberikan fleksibilitas belajar dengan memanfaatkan teknologi informasi tanpa mengurangi kualitas pembelajaran."
+    },
+    {
+        "question": "Apa perbedaan pembelajaran sinkron dan asinkron?",
+        "answer": "Sinkron dilakukan secara langsung melalui video conference, sedangkan asinkron dilakukan melalui materi yang dapat diakses kapan saja."
+    },
+    {
+        "question": "Apa itu pembelajaran hybrid?",
+        "answer": "Pembelajaran hybrid menggabungkan metode tatap muka dan daring secara terstruktur dalam satu mata kuliah."
+    },
+    {
+        "question": "Apa tujuan etika pembelajaran daring?",
+        "answer": "Etika pembelajaran daring bertujuan menjaga profesionalitas, sopan santun, dan kelancaran komunikasi selama proses belajar."
+    },
+    {
+        "question": "Apa yang dimaksud dengan mekanisme presensi daring?",
+        "answer": "Presensi daring dilakukan melalui sistem LMS atau platform resmi UB yang mencatat kehadiran mahasiswa secara digital."
+    },
+    {
+        "question": "Apa kompetensi lulusan program sarjana UB?",
+        "answer": "Kompetensi lulusan mencakup kemampuan akademik, keterampilan profesional, kemampuan berpikir kritis, dan etika dalam bidang keilmuan."
+    },
+    {
+        "question": "Apa saja kelompok mata kuliah dalam kurikulum sarjana?",
+        "answer": "Kelompoknya meliputi MK Wajib Umum, MK Wajib Universitas, MK Pilihan Universitas, MK Fakultas/Prodi, dan MK lintas fakultas."
+    },
+    {
+        "question": "Apa tujuan evaluasi keberhasilan studi tahun pertama?",
+        "answer": "Evaluasi ini memastikan mahasiswa mampu beradaptasi dengan sistem akademik dan memenuhi standar minimal kelulusan awal."
+    },
+    {
+        "question": "Apa bentuk tugas akhir program sarjana?",
+        "answer": "Tugas akhir dapat berupa skripsi, proyek akhir, atau bentuk lain sesuai ketentuan program studi."
+    },
+    {
+        "question": "Apa syarat mengikuti ujian tugas akhir sarjana?",
+        "answer": "Mahasiswa harus memenuhi jumlah SKS minimal, menyelesaikan seluruh mata kuliah wajib, dan memenuhi persyaratan administratif."
+    },
+    {
+        "question": "Apa tujuan Ujian Kualifikasi pada Program Doktor?",
+        "answer": "Ujian ini menilai kesiapan mahasiswa dalam melanjutkan penelitian disertasi dan penguasaan bidang keilmuan inti."
+    },
+    {
+        "question": "Apa yang dimaksud dengan disertasi?",
+        "answer": "Disertasi adalah karya ilmiah hasil penelitian mendalam yang menjadi syarat utama kelulusan program doktor."
+    },
+    {
+        "question": "Apa tujuan Seminar Hasil Penelitian Disertasi?",
+        "answer": "Seminar ini bertujuan mempresentasikan temuan penelitian dan mendapatkan masukan sebelum ujian disertasi."
+    },
+    {
+        "question": "Apa itu program kelas internasional di UB?",
+        "answer": "Program kelas internasional adalah program pendidikan dengan kurikulum berstandar global dan penggunaan bahasa pengantar internasional."
+    },
+    {
+        "question": "Apa perbedaan double degree dan joint degree?",
+        "answer": "Double degree menghasilkan dua ijazah dari dua institusi, sedangkan joint degree menghasilkan satu ijazah bersama."
+    },
+    {
+        "question": "Apa tujuan program fast-track UB?",
+        "answer": "Program fast-track memungkinkan mahasiswa menyelesaikan pendidikan sarjana dan magister dalam waktu lebih singkat."
+    },
+    {
+        "question": "Apa syarat mengikuti program fast-track?",
+        "answer": "Mahasiswa harus memiliki prestasi akademik tinggi, memenuhi SKS tertentu, dan lulus seleksi program."
+    },
+    {
+        "question": "Apa yang dimaksud dengan status akademik mahasiswa?",
+        "answer": "Status akademik menunjukkan kondisi mahasiswa dalam proses studi, seperti aktif, cuti, nonaktif, atau drop out."
+    },
+    {
+        "question": "Apa syarat perpindahan mahasiswa antar fakultas di UB?",
+        "answer": "Mahasiswa harus memenuhi ketentuan akademik, memiliki alasan yang jelas, dan mendapat persetujuan dari fakultas terkait."
+    },
+    {
+        "question": "Apa tujuan administrasi sistem kredit?",
+        "answer": "Administrasi sistem kredit memastikan pengelolaan SKS, registrasi, dan evaluasi akademik berjalan tertib dan terstandar."
+    },
+    {
+        "question": "Apa syarat mengikuti wisuda di UB?",
+        "answer": "Mahasiswa harus lulus seluruh mata kuliah, menyelesaikan tugas akhir, dan memenuhi persyaratan administrasi fakultas."
+    },
+    {
+        "question": "Apa fungsi penasihat akademik (PA)?",
+        "answer": "PA berfungsi membimbing mahasiswa dalam perencanaan studi, pemilihan mata kuliah, dan penyelesaian masalah akademik."
+    },
+    {
+        "question": "Apa tujuan layanan bimbingan dan konseling di UB?",
+        "answer": "Layanan BK membantu mahasiswa mengatasi masalah akademik, pribadi, dan sosial yang mempengaruhi proses studi."
+    },
+    {
+        "question": "Apa tujuan utama evaluasi keberhasilan studi pada program sarjana?",
+        "answer": "Evaluasi ini bertujuan memastikan mahasiswa mencapai capaian pembelajaran, memenuhi standar akademik, dan berada pada jalur penyelesaian studi tepat waktu."
+    },
+    {
+        "question": "Apa yang dimaksud dengan evaluasi keberhasilan studi akhir semester?",
+        "answer": "Evaluasi akhir semester menilai pencapaian akademik mahasiswa berdasarkan nilai mata kuliah yang ditempuh selama satu semester."
+    },
+    {
+        "question": "Apa tujuan evaluasi keberhasilan studi tahun kedua?",
+        "answer": "Evaluasi tahun kedua memastikan mahasiswa telah menguasai dasar-dasar keilmuan dan siap memasuki mata kuliah tingkat lanjut."
+    },
+    {
+        "question": "Apa yang dimaksud dengan evaluasi keberhasilan studi tahun ketiga?",
+        "answer": "Evaluasi ini menilai kesiapan mahasiswa dalam menyelesaikan mata kuliah keahlian dan mempersiapkan tugas akhir."
+    },
+    {
+        "question": "Apa tujuan evaluasi keberhasilan studi tahun keempat?",
+        "answer": "Evaluasi tahun keempat memastikan mahasiswa berada pada tahap akhir penyelesaian studi dan memenuhi syarat kelulusan."
+    },
+    {
+        "question": "Apa yang dimaksud dengan evaluasi akhir studi program sarjana?",
+        "answer": "Evaluasi ini dilakukan untuk menentukan kelulusan mahasiswa berdasarkan seluruh capaian akademik dan penyelesaian tugas akhir."
+    },
+    {
+        "question": "Berapa semester maksimal mahasiswa boleh cuti kuliah?",
+        "answer": "Mahasiswa diperbolehkan mengambil cuti akademik maksimal 4 semester selama masa studi, namun tidak boleh diambil berturut-turut lebih dari 2 semester (tergantung kebijakan spesifik fakultas)."
+    },
+    {
+        "question": "Apa kriteria Drop Out (DO) atau pemutusan studi di UB?",
+        "answer": "Mahasiswa dapat terkena DO jika: 1) Tidak mendaftar ulang/aktif 2 semester berturut-turut tanpa keterangan cuti, 2) Tidak memenuhi evaluasi keberhasilan studi tahun pertama (kurang dari 20 SKS atau IPK < 2.00), atau 3) Melewati batas maksimal masa studi (14 semester untuk Sarjana)."
+    },
+    {
+        "question": "Apa itu Evaluasi Keberhasilan Studi Tahun Pertama?",
+        "answer": "Pada akhir tahun pertama (semester 2), mahasiswa wajib telah mengumpulkan minimal 20 SKS (dari mata kuliah terbaik) dengan IPK minimal 2.00. Jika tidak tercapai, mahasiswa terancam putus studi."
+    },
+    {
+        "question": "Apa yang terjadi jika saya lupa membayar UKT?",
+        "answer": "Jika tidak membayar UKT hingga batas waktu berakhir, status Anda di SIAM akan menjadi Non-Aktif (tidak bisa isi KRS). Jika ini terjadi 2 semester berturut-turut, Anda dianggap mengundurkan diri (Auto-DO)."
+    },
+    {
+        "question": "Apa bentuk tugas akhir pada program profesi dan spesialis?",
+        "answer": "Tugas akhir dapat berupa laporan kasus, laporan praktik profesional, atau karya ilmiah sesuai bidang profesi."
+    },
+    {
+        "question": "Apa tujuan yudisium pada program profesi?",
+        "answer": "Yudisium bertujuan menetapkan kelulusan mahasiswa berdasarkan hasil evaluasi akademik dan pemenuhan seluruh persyaratan program."
+    },
+    {
+        "question": "Apa kompetensi lulusan program magister?",
+        "answer": "Lulusan magister diharapkan memiliki kemampuan analitis, penelitian mandiri, dan penguasaan mendalam terhadap bidang keilmuan."
+    },
+    {
+        "question": "Apa tujuan evaluasi studi pada program magister?",
+        "answer": "Evaluasi studi memastikan mahasiswa mampu mengikuti perkuliahan tingkat lanjut dan menyelesaikan penelitian tesis."
+    },
+    {
+        "question": "Apa yang dimaksud dengan gagal studi pada program magister?",
+        "answer": "Gagal studi terjadi ketika mahasiswa tidak memenuhi ketentuan akademik atau tidak dapat menyelesaikan studi dalam batas waktu yang ditetapkan."
+    },
+    {
+        "question": "Apa tujuan ujian proposal tesis?",
+        "answer": "Ujian proposal bertujuan menilai kelayakan rencana penelitian dan kesiapan mahasiswa dalam melaksanakan penelitian tesis."
+    },
+    {
+        "question": "Apa yang dinilai dalam ujian akhir tesis?",
+        "answer": "Ujian akhir menilai kualitas penelitian, kemampuan analisis, dan kemampuan mahasiswa mempertahankan hasil penelitiannya."
+    },
+    {
+        "question": "Apa kompetensi lulusan program doktor?",
+        "answer": "Lulusan doktor diharapkan mampu menghasilkan penelitian orisinal, memecahkan masalah kompleks, dan berkontribusi pada pengembangan ilmu."
+    },
+    {
+        "question": "Apa tujuan ujian kualifikasi pada program doktor?",
+        "answer": "Ujian kualifikasi memastikan mahasiswa memiliki penguasaan teori yang memadai sebelum memulai penelitian disertasi."
+    },
+    {
+        "question": "Apa yang dimaksud dengan proposal penelitian disertasi?",
+        "answer": "Proposal disertasi adalah dokumen yang menjelaskan rencana penelitian, metodologi, dan kontribusi ilmiah yang akan dihasilkan."
+    },
+    {
+        "question": "Apa tujuan seminar hasil penelitian disertasi?",
+        "answer": "Seminar ini bertujuan mempresentasikan temuan penelitian dan mendapatkan masukan sebelum ujian disertasi."
+    },
+    {
+        "question": "Apa perbedaan ujian disertasi tertutup dan terbuka?",
+        "answer": "Ujian tertutup dilakukan di hadapan penguji internal, sedangkan ujian terbuka dapat dihadiri publik sebagai bentuk pertanggungjawaban ilmiah."
+    },
+    {
+        "question": "Apa tujuan program kelas internasional UB?",
+        "answer": "Program ini bertujuan menghasilkan lulusan berdaya saing global melalui kurikulum internasional dan penggunaan bahasa asing."
+    },
+    {
+        "question": "Apa persyaratan mengikuti program kelas internasional?",
+        "answer": "Mahasiswa harus memenuhi persyaratan akademik, kemampuan bahasa asing, dan ketentuan administrasi program."
+    },
+    {
+        "question": "Apa tujuan program double degree?",
+        "answer": "Program ini memberikan kesempatan mahasiswa memperoleh dua gelar dari dua institusi berbeda melalui kurikulum terintegrasi."
+    },
+    {
+        "question": "Apa tujuan program joint degree?",
+        "answer": "Joint degree menghasilkan satu gelar bersama dari dua institusi yang bekerja sama dalam penyelenggaraan program."
+    },
+    {
+        "question": "Apa tujuan program fast-track UB?",
+        "answer": "Program fast-track mempercepat penyelesaian studi sarjana dan magister dengan mengintegrasikan sebagian kurikulum."
+    },
+    {
+        "question": "Apa yang dinilai dalam seleksi program fast-track?",
+        "answer": "Seleksi menilai prestasi akademik, kesiapan penelitian, dan motivasi mahasiswa untuk mengikuti program percepatan."
+    },
+    {
+        "question": "Apa tujuan program PPDU-UB?",
+        "answer": "PPDU-UB bertujuan mempercepat pendidikan doktor bagi mahasiswa berprestasi melalui jalur percepatan dari sarjana."
+    },
+    {
+        "question": "Apa yang dimaksud dengan status akademik aktif?",
+        "answer": "Status aktif menunjukkan mahasiswa terdaftar dan mengikuti kegiatan akademik pada semester berjalan."
+    },
+    {
+        "question": "Apa yang dimaksud dengan status cuti akademik?",
+        "answer": "Cuti akademik adalah izin tidak mengikuti kegiatan akademik selama satu semester dengan persetujuan fakultas."
+    },
+    {
+        "question": "Apa syarat perpindahan mahasiswa dari PTN lain ke UB?",
+        "answer": "Mahasiswa harus memiliki prestasi akademik baik, alasan perpindahan yang jelas, dan memenuhi ketentuan administrasi UB."
+    },
+    {
+        "question": "Apa tujuan administrasi sistem kredit?",
+        "answer": "Administrasi sistem kredit memastikan pengelolaan SKS, registrasi, dan evaluasi akademik berjalan tertib dan efisien."
+    },
+    {
+        "question": "Apa syarat wisuda bagi mahasiswa sarjana?",
+        "answer": "Mahasiswa harus menyelesaikan seluruh SKS, lulus tugas akhir, dan memenuhi persyaratan administrasi fakultas."
+    },
+    {
+        "question": "Apa tujuan tata tertib mahasiswa?",
+        "answer": "Tata tertib bertujuan menjaga ketertiban, etika, dan suasana akademik yang kondusif di lingkungan kampus."
+    },
+    {
+        "question": "Apa fungsi kode etik mahasiswa?",
+        "answer": "Kode etik mengatur perilaku mahasiswa agar sesuai norma akademik, etika sosial, dan nilai-nilai universitas."
+    },
+    {
+        "question": "Apa tugas utama penasihat akademik (PA)?",
+        "answer": "PA membimbing mahasiswa dalam perencanaan studi, pemilihan mata kuliah, dan penyelesaian masalah akademik."
+    },
+    {
+        "question": "Apa fungsi layanan bimbingan dan konseling?",
+        "answer": "Layanan BK membantu mahasiswa mengatasi masalah akademik, pribadi, dan sosial yang mempengaruhi proses belajar."
+    },
+    {
+        "question": "Apa tujuan program layanan konseling?",
+        "answer": "Program layanan konseling bertujuan memberikan dukungan psikologis dan akademik agar mahasiswa dapat belajar secara optimal."
+    },
+    {
+        "question": "Apa yang dimaksud dengan program layanan bimbingan akademik?",
+        "answer": "Program ini membantu mahasiswa merencanakan studi, memahami aturan akademik, dan mengembangkan strategi belajar."
+    },
+    {
+        "question": "Apa fungsi utama penasihat akademik dalam monitoring studi?",
+        "answer": "PA memantau perkembangan akademik mahasiswa dan memberikan rekomendasi untuk meningkatkan performa studi."
+    },
+    {
+        "question": "Apa tujuan umum bimbingan dan konseling di UB?",
+        "answer": "Tujuannya adalah membantu mahasiswa mencapai kesejahteraan akademik dan emosional selama menjalani studi."
+    },
+    {
+        "question": "Apa tujuan utama kode etik mahasiswa UB?",
+        "answer": "Kode etik mahasiswa bertujuan membentuk perilaku yang berintegritas, menghormati sivitas akademika, dan menjaga nama baik universitas."
+    },
+    {
+        "question": "Apa ruang lingkup kode etik mahasiswa UB?",
+        "answer": "Ruang lingkupnya mencakup hubungan mahasiswa dengan dosen, tenaga kependidikan, sesama mahasiswa, dan masyarakat."
+    },
+    {
+        "question": "Apa yang dimaksud dengan standar perilaku mahasiswa?",
+        "answer": "Standar perilaku adalah pedoman tindakan mahasiswa dalam kegiatan akademik maupun non-akademik agar sesuai norma dan etika kampus."
+    },
+    {
+        "question": "Apa tujuan penetapan sanksi akademik?",
+        "answer": "Sanksi akademik ditetapkan untuk menegakkan disiplin, mencegah pelanggaran, dan menjaga kualitas lingkungan akademik."
+    },
+    {
+        "question": "Apa fungsi utama bimbingan dan konseling dalam mendukung mahasiswa?",
+        "answer": "Fungsinya membantu mahasiswa mengatasi hambatan akademik, emosional, dan sosial agar dapat menyelesaikan studi dengan baik."
+    },
+    {
+        "question": "Apa bentuk program layanan bimbingan dan konseling di UB?",
+        "answer": "Programnya meliputi konseling individu, konseling kelompok, konsultasi akademik, dan pendampingan pengembangan diri."
+    },
+    {
+        "question": "Apa latar belakang berdirinya Fakultas Vokasi UB?",
+        "answer": "Fakultas Vokasi didirikan untuk memenuhi kebutuhan tenaga terampil yang siap kerja dan mampu menjawab tuntutan dunia industri."
+    },
+    {
+        "question": "Apa pertimbangan utama penyelenggaraan pendidikan vokasi di UB?",
+        "answer": "Penyelenggaraan vokasi mempertimbangkan kebutuhan industri, perkembangan teknologi, dan tuntutan kompetensi praktis di dunia kerja."
+    },
+    {
+        "question": "Apa hubungan pendidikan vokasi dengan dunia usaha dan industri?",
+        "answer": "Pendidikan vokasi dirancang untuk menghasilkan lulusan yang memiliki keterampilan praktis sesuai kebutuhan dunia usaha dan industri."
+    },
+    {
+        "question": "Apa prospek pendidikan vokasi di masa depan?",
+        "answer": "Prospeknya sangat baik karena industri membutuhkan tenaga terampil yang mampu bekerja secara profesional dan adaptif."
+    },
+    {
+        "question": "Apa peran KKNI dalam pendidikan vokasi?",
+        "answer": "KKNI menjadi acuan penyusunan kurikulum vokasi agar kompetensi lulusan sesuai standar nasional dan kebutuhan industri."
+    },
+    {
+        "question": "Apa visi Fakultas Vokasi UB?",
+        "answer": "Visinya adalah menjadi fakultas vokasi unggul yang menghasilkan lulusan profesional dan berdaya saing global."
+    },
+    {
+        "question": "Apa misi utama Fakultas Vokasi UB?",
+        "answer": "Misinya meliputi penyelenggaraan pendidikan terapan, penguatan kerja sama industri, dan peningkatan kualitas lulusan."
+    },
+    {
+        "question": "Apa tujuan pendidikan di Fakultas Vokasi?",
+        "answer": "Tujuannya menghasilkan lulusan yang kompeten, siap kerja, dan mampu beradaptasi dengan perkembangan teknologi."
+    },
+    {
+        "question": "Apa nilai dasar yang dianut Fakultas Vokasi?",
+        "answer": "Nilai dasarnya mencakup profesionalitas, integritas, kerja sama, dan orientasi pada hasil."
+    },
+    {
+        "question": "Apa yang dimaksud dengan Sistem Kredit Semester dalam konteks vokasi?",
+        "answer": "SKS adalah satuan beban belajar yang mencakup kegiatan teori, praktikum, dan praktik lapangan sesuai karakter vokasi."
+    },
+    {
+        "question": "Apa perbedaan pemahaman semester untuk perkuliahan dan praktikum?",
+        "answer": "Perkuliahan berfokus pada teori, sedangkan praktikum dan kerja lapangan menekankan keterampilan teknis dan kompetensi profesional."
+    },
+    {
+        "question": "Apa yang dimaksud dengan beban studi dalam satu semester vokasi?",
+        "answer": "Beban studi adalah jumlah SKS yang dapat diambil mahasiswa berdasarkan kemampuan akademik dan ketentuan program studi."
+    },
+    {
+        "question": "Apa kelompok mata kuliah dalam kurikulum vokasi?",
+        "answer": "Kelompoknya meliputi mata kuliah umum, mata kuliah universitas, mata kuliah keahlian, dan mata kuliah praktik industri."
+    },
+    {
+        "question": "Apa tujuan penilaian kemampuan mahasiswa vokasi?",
+        "answer": "Penilaian bertujuan mengukur penguasaan teori, keterampilan praktis, dan kesiapan mahasiswa menghadapi dunia kerja."
+    },
+    {
+        "question": "Apa yang dimaksud dengan nilai akhir mahasiswa vokasi?",
+        "answer": "Nilai akhir adalah gabungan penilaian teori, praktikum, tugas, ujian, dan asesmen kompetensi sesuai karakter mata kuliah."
+    },
+    {
+        "question": "Apa itu Program Semester Antara di vokasi?",
+        "answer": "Program Semester Antara memberikan kesempatan mahasiswa mempercepat studi atau mengulang mata kuliah tertentu."
+    },
+    {
+        "question": "Apa tujuan Ujian Khusus di Fakultas Vokasi?",
+        "answer": "Ujian Khusus diberikan untuk kondisi tertentu agar mahasiswa dapat memperbaiki atau melengkapi penilaian akademik."
+    },
+    {
+        "question": "Apa yang dimaksud dengan rekognisi prestasi mahasiswa vokasi?",
+        "answer": "Rekognisi prestasi mengakui pencapaian mahasiswa di bidang akademik maupun non-akademik sebagai bagian dari penilaian."
+    },
+    {
+        "question": "Apa tujuan evaluasi keberhasilan studi program Diploma Tiga?",
+        "answer": "Evaluasi memastikan mahasiswa menguasai kompetensi teknis dan siap memasuki dunia kerja setelah lulus."
+    },
+    {
+        "question": "Apa tujuan evaluasi keberhasilan studi program Sarjana Terapan?",
+        "answer": "Evaluasi menilai penguasaan teori terapan, keterampilan profesional, dan kesiapan mahasiswa menghadapi tantangan industri."
+    },
+    {
+        "question": "Apa tujuan penyusunan Tugas Akhir di program vokasi?",
+        "answer": "Tugas Akhir bertujuan mengukur kemampuan mahasiswa menerapkan ilmu terapan untuk menyelesaikan masalah nyata."
+    },
+    {
+        "question": "Apa bentuk diseminasi Tugas Akhir di vokasi?",
+        "answer": "Diseminasi dapat berupa presentasi, publikasi, atau pameran hasil karya sesuai bidang keahlian."
+    },
+    {
+        "question": "Apa syarat administratif mengikuti Tugas Akhir vokasi?",
+        "answer": "Mahasiswa harus memenuhi jumlah SKS tertentu, menyelesaikan mata kuliah wajib, dan memenuhi syarat administrasi fakultas."
+    },
+    {
+        "question": "Apa tujuan ujian Tugas Akhir vokasi?",
+        "answer": "Ujian bertujuan menilai kemampuan mahasiswa mempertahankan hasil karya dan kompetensi yang diperoleh selama studi."
+    },
+    {
+        "question": "Apa fungsi Majelis Penguji Tugas Akhir?",
+        "answer": "Majelis Penguji menilai kualitas karya, kemampuan presentasi, dan penguasaan materi mahasiswa."
+    },
+    {
+        "question": "Apa tujuan yudisium di Fakultas Vokasi?",
+        "answer": "Yudisium menetapkan kelulusan mahasiswa berdasarkan evaluasi akademik dan pemenuhan seluruh persyaratan studi."
+    },
+    {
+        "question": "Apa syarat mengikuti wisuda bagi mahasiswa vokasi?",
+        "answer": "Mahasiswa harus lulus seluruh mata kuliah, menyelesaikan Tugas Akhir, dan memenuhi persyaratan administrasi fakultas."
+    }
+]
