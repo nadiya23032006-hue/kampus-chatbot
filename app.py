@@ -43,12 +43,7 @@ if "history" not in st.session_state:
 
 # --- Fungsi untuk request ke Qwen Chat API ---
 def ask_qwen(prompt):
-    try:
-        api_key = st.secrets["QWEN_API_KEY"]
-    except KeyError:
-        st.error("Token Qwen API belum diatur di Streamlit Secrets!")
-        return "Error: API key tidak tersedia."
-
+    api_key = st.secrets["QWEN_API_KEY"]["api_key"]
     url = "https://api.qwen.ai/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -60,14 +55,10 @@ def ask_qwen(prompt):
         "temperature": 0.3,
         "max_new_tokens": 200
     }
-    try:
-        res = requests.post(url, headers=headers, json=data, timeout=90)
-        if res.status_code == 200:
-            return res.json()["choices"][0]["message"]["content"]
-        else:
-            return f"AI Error {res.status_code}: {res.text}"
-    except Exception as e:
-        return f"AI Error: {str(e)}"
+    res = requests.post(url, headers=headers, json=data, timeout=90)
+    st.write(res.status_code)
+    st.write(res.text)
+    return res.json().get("choices", [{}])[0].get("message", {}).get("content", "")
 
 # --- Input user ---
 user_input = st.text_input("Tanya sesuatu:")
